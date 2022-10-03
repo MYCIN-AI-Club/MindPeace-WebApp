@@ -32,7 +32,17 @@ class Tracker(db.Model):
         self.description=description
         self.last_update=last_update
         self.user_id=user_id
-#Logs class to be made
+class Logs(db.Model):
+    id=db.Column(db.Integer,primary_key=True)
+    when=db.Column(db.DateTime)
+    value=db.Column(db.Float,nullable=False)
+    notes=db.Column(db.String(100))
+    tracker_id=db.Column(db.Integer,db.ForeignKey('tracker.id'))
+    def __init__(self,value,notes,tracker_id,when):
+        self.when=when
+        self.value=value
+        self.notes=notes
+        self.tracker_id=tracker_id
 
 
 db.create_all()

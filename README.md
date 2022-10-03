@@ -56,6 +56,3 @@ The template folder contains all the html files.
 The static folder contains css style sheets and the ‘images‘  folder which contains images  used in the project. 
 ‘trackdb.sqlite3’ contains the database. 
 
-
-Video:
-https://drive.google.com/file/d/1QcmqOt4zVuZs2bfDDAuk7Z9_trwiSoP5/view?usp=sharing

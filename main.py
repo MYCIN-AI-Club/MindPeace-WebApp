@@ -161,8 +161,8 @@ def tracker(id):
         v.append(i.value)
 
     plt.bar(time,v,width=0.5,color='blue')
-    plt.xlabel("X Axis") 
-    plt.ylabel("Y Axis")
+    plt.xlabel("Timestamp") 
+    plt.ylabel("Value")
     plt.savefig('static/myplot.png')
     # plt.show()
 

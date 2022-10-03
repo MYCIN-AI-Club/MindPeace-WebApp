@@ -1,0 +1,43 @@
+body {
+ background-color: #ffce30;
+}
+
+
+body.home {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  background-color: black;
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+nav .btn {
+  margin: 10px;
+}
+form {
+  width: 30vw;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fcc513;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 1rem;
+  box-shadow: 5px 5px 8px 10px rgba(0, 0, 0, 0.4);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+.adddeck {
+  margin: 0.5rem;
+}
+.deck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 20px;
+}

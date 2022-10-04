@@ -30,13 +30,15 @@ MindPeace Web Application is designed to help you track all your habits. Each lo
 |password|String (30)| Not null          | Password   |
 
 2. Trackers
-Column      | Data type | Constraints              | Description
-id          | Integer   | Primary Key              |     Id
-name        | String(30)| Not null                 | Tracker Name
-description |String(100)|       -                  | Description of tracker type
-last_update | DateTime  | Not null                 | When was tracker last updated
-user_id     | Integer   | Foreign Key from User    |  User Id
-                            Table, Not null
+
+|Column      | Data type | Constraints              | Description|
+|------------|-----------|--------------------------|------------|
+|id          | Integer   | Primary Key              |     Id     |
+|name        | String(30)| Not null                 |Tracker Name|
+|description |String(100)|       -                  | Description of tracker type|
+|last_update | DateTime  | Not null                 | When was tracker last updated|
+|user_id     | Integer   | Foreign Key from User    |  User Id Table, Not Null|
+                            
 
 
 

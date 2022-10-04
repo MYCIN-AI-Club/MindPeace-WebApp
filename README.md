@@ -1,12 +1,12 @@
-MindPeace Habit Tracker App
+# MindPeace Habit Tracker App
 
-Project Documentation 
+## Project Documentation 
 
 
-Description 
+## Description 
 MindPeace Web Application is designed to help you track all your habits. Each logged in user can create and manage multiple types of trackers(like running, sleeping ,etc) and keep a note of your daily life.. The user can access all different habits from the dashboard  and can add more logs to it , add more trackers, and view their progress . 
 
-Technologies used 
+### Technologies used 
 1. flask {for application framework} 
     • Flask 
     • url_for 
@@ -20,7 +20,7 @@ Technologies used
 6. Matplotlib{for plotting graphs}
 7. Datetime{for timestamp}
 
-DB Schema Design 
+### DB Schema Design 
 1. User Table 
 
 Column  | Data type | Constraints       | Description
@@ -49,7 +49,7 @@ tracker_id  | Integer   | Foreign Key from tracker Table| Tracker id
 
 
 
-Architecture and Features 
+### Architecture and Features 
 
 The main control of the application is in file ‘main.py’. 
 The template folder contains all the html files. 

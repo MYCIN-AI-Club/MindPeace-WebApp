@@ -57,4 +57,10 @@ The main control of the application is in file ‘main.py’.
 The template folder contains all the html files. 
 The static folder contains css style sheets and the ‘images‘  folder which contains images  used in the project. 
 ‘trackdb.sqlite3’ contains the database. 
-
+<br><br> 
+## Submitted by: 
+#### <a href="github.com/archit-1203"> ARCHIT SRIVASTAVA </a>
+## Contributors: 
+#### Maintainer: <a href="github.com/kushagrathisside"><b>KUSHAGRA SRIVASTAVA</b></a> 
+#### Other contributors: 
+<a href="https://github.com/MYCIN-AI-Club/MindPeace-WebApp/graphs/contributors"> <img src="https://contrib.rocks/image?repo=MYCIN-AI-Club/MindPeace-WebApp" /> </a>

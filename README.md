@@ -23,10 +23,11 @@ MindPeace Web Application is designed to help you track all your habits. Each lo
 ### DB Schema Design 
 1. User Table 
 
-Column  | Data type | Constraints       | Description
-id      |   Integer | Primary key       | User Id
-username| String(30)| Unique , not null | User Name
-password|String (30)| Not null          | Password
+|Column  | Data type | Constraints       | Description|
+|--------|-----------|-------------------|------------|
+|id      |   Integer | Primary key       | User Id    |
+|username| String(30)| Unique , not null | User Name  |
+|password|String (30)| Not null          | Password   |
 
 2. Trackers
 Column      | Data type | Constraints              | Description

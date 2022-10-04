@@ -21,7 +21,7 @@ MindPeace Web Application is designed to help you track all your habits. Each lo
 7. Datetime{for timestamp}
 
 ### DB Schema Design 
-1. User Table 
+<b>1. User Table </b>
 
 |Column  | Data type | Constraints       | Description|
 |--------|-----------|-------------------|------------|
@@ -29,7 +29,7 @@ MindPeace Web Application is designed to help you track all your habits. Each lo
 |username| String(30)| Unique , not null | User Name  |
 |password|String (30)| Not null          | Password   |
 
-2. Trackers
+<b>2. Trackers</b>
 
 |Column      | Data type | Constraints              | Description|
 |------------|-----------|--------------------------|------------|
@@ -38,17 +38,16 @@ MindPeace Web Application is designed to help you track all your habits. Each lo
 |description |String(100)|       -                  | Description of tracker type|
 |last_update | DateTime  | Not null                 | When was tracker last updated|
 |user_id     | Integer   | Foreign Key from User    |  User Id Table, Not Null|
-                            
 
+<b>3. Logs</b>
 
-
-3. Logs
-Column      | Data type | Constraints                   | Description
-id          | Integer   | Primary Key                   |     Id
-when        | DateTime  |       -                       | When was this log added
-value       | Float     |   Not null                    | Value that we want to add in log
-notes       | String    |       -                       | Any remarks about the log
-tracker_id  | Integer   | Foreign Key from tracker Table| Tracker id
+|Column      | Data type | Constraints                   | Description|
+|------------|-----------|-------------------------------|------------|
+|id          | Integer   | Primary Key                   |     Id     |
+|when        | DateTime  |       -                       | When was this log added|
+|value       | Float     |   Not null                    | Value that we want to add in log|
+|notes       | String    |       -                       | Any remarks about the log|
+|tracker_id  | Integer   | Foreign Key from tracker Table| Tracker id|
 
 
 
